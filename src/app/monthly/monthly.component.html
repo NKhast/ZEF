@@ -1,0 +1,42 @@
+<header>
+  <a href="index.html">✖</a>
+</header>
+<div id="intro">
+  <h1>A perfect plan, for everyone.</h1>
+  <p>For detailed feature breakdown, view our <a href="#">pricing page</a></p>
+  <button class="plan annual" (click)="annual()">Annual</button>
+  <button class="plan monthly" id="active">Monthly</button>
+</div>
+<div id="container">
+  <div class="block" id="one">
+    <h3 class="title">Free</h3>
+    <h1 class="price">$0</h1>
+    <p class="survey">1 survey</p>
+    <a class="detail free">more details</a>
+    <button id="current" disabled>Current plan</button>
+  </div>
+  <div class="block" id="two">
+    <h3 class="title">Basic</h3>
+    <h1 class="price">$1</h1>
+    <p class="survey">10 Surveys</p>
+    <a class="detail basic">more details</a>
+    <button class="choose" (click)="checkout()">Choose plan</button>
+    <a href="#" class="trial">Start Free Trial</a>
+  </div>
+  <div class="block" id="three">
+    <h3 class="title">Pro</h3>
+    <h1 class="price">$10</h1>
+    <p class="survey">50 Surveys</p>
+    <a class="detail pro">more details</a>
+    <button class="choose" (click)="checkout()">Choose plan</button>
+    <a href="#" class="trial">Start Free Trial</a>
+  </div>
+  <div class="block" id="four">
+    <h3 class="title">Enterprise</h3>
+    <h1 class="price">Custom</h1>
+    <p class="survey">Unlimited surveys</p>
+    <a class="detail enterprise">more details</a>
+    <button class="contact">Contact us</button>
+    <a href="#" class="trial">Contact Us</a>
+  </div>
+</div>
